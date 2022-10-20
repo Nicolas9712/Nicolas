@@ -12,12 +12,18 @@ class Button extends StatelessWidget{
         borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
-        child: Text("Login",style: TextStyle(
-          color: Colors.white,
-          fontSize: 15,
-          fontWeight: FontWeight.bold
-        ),),
-      ),
+        child: TextButton(
+          style: TextButton.styleFrom(
+            primary : Colors.white,
+          ),
+          onPressed: () {
+            print('hola');
+          },
+          child: Text('Disfruta de tu viaje'),
+
+        ),
+        ),
+
     );
   }
 }

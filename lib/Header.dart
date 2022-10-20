@@ -9,11 +9,12 @@ class Header extends StatelessWidget{
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Center(
-            child: Text("Login", style: TextStyle(color: Colors.white, fontSize: 40),),
+            child: Text("Te acercamos a tus metas", style: TextStyle(color: Colors.white, fontSize: 40),),
           ),
           SizedBox(height: 10,),
+
           Center(
-            child: Text("Welcome to Inside Android", style: TextStyle(color: Colors.white, fontSize: 18),),
+            child: Text("Bienvenido a colombia Travel ", style: TextStyle(color: Colors.white, fontSize: 18),),
           )
         ],
       ),

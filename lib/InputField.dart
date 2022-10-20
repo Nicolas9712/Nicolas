@@ -14,8 +14,8 @@ class InputField extends StatelessWidget{
           ),
           child: TextField(
             decoration: InputDecoration(
-              hintText: "Enter your email",
-              hintStyle: TextStyle(color: Colors.grey),
+              hintText: "Ingresa tu email",
+              hintStyle: TextStyle(color: Colors.grey[500]),
               border: InputBorder.none
             ),
           ),
@@ -29,7 +29,7 @@ class InputField extends StatelessWidget{
           ),
           child: TextField(
             decoration: InputDecoration(
-                hintText: "Enter your password",
+                hintText: "Ingresa tu contraseña",
                 hintStyle: TextStyle(color: Colors.grey),
                 border: InputBorder.none
             ),
